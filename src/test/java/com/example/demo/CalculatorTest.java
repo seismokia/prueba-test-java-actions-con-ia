@@ -16,4 +16,9 @@ class CalculatorTest {
     void subtractsTwoNumbers() {
         assertEquals(2, calculator.subtract(5, 3));
     }
+
+    @Test
+    void multipliesTwoNumbers() {
+        assertEquals(12, calculator.multiply(3, 4));
+    }
 }
